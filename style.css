@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+}
+/* header start */
+/* header end */
+header {
+  padding: 20px 0;
+  /* border: 1px solid red; */
+}
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  /* border: 1px solid black; */
+}
+.logo {
+  width: 15%;
+}
+.logo img {
+  width: 100%;
+}
+/* header end */
+/* banner start */
+.banner {
+  height: 800px;
+  background-image: url("banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.b_content {
+  padding: 170px 0;
+  text-align: center;
+  color: #ffffff;
+}
+.b_h1 {
+  margin: 0 auto;
+  font-size: 120px;
+  font-weight: 400;
+  width: 700px;
+  border-bottom: 2px solid #15a4fa;
+}
+.b_text {
+  margin-top: 30px;
+}
+
+.btn {
+  margin: 60px;
+  padding: 25px 40px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #15a4fa;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: #15a4fa;
+}
+
+/* banner end */
+/* design start */
+.design {
+  /* border: 1px solid black; */
+  background-color: #f6f9f9;
+}
+.d_content {
+  padding: 75px 0;
+  text-align: center;
+}
+.d_h1 {
+  margin: 0 0 30px 0;
+  color: #2d3950;
+  font-size: 40px;
+  font-weight: 400;
+}
+.d_text {
+  margin: 30px 0;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* design end */
+/* service start */
+.service {
+}
+
+.s_content {
+  padding: 60px 0;
+  overflow: hidden;
+  text-align: center;
+}
+.single {
+  margin: 0 1.66%;
+  width: 30%;
+  float: left;
+  /* border: 1px solid red; */
+}
+.s_img {
+}
+.s_img img {
+}
+.s_h2 {
+  font-weight: 400;
+  font-size: 22px;
+  color: #2d3950;
+}
+.s_text {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+/* service end */
+/* work start */
+.work {
+  background-color: #f6f9f9;
+}
+.w_content {
+  padding: 65px 0;
+  overflow: hidden;
+}
+.w_h1 {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 41px;
+  font-weight: 400;
+  color: #2d3950;
+  text-align: center;
+}
+.w_text {
+  margin: 20px 0;
+  text-align: center;
+}
+.w_img {
+  float: left;
+  width: 31.33%;
+  /* border: 1px solid red; */
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+.w_img img {
+  width: 100%;
+}
+
+.mr0 {
+  margin-right: 0px;
+}
+/* work end */
+/* form start */
+.form {
+  height: 700px;
+  background-image: url("bg_form.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.f_content {
+  padding: 75px 0;
+  padding: auto;
+  text-align: center;
+}
+.f_h1 {
+  margin: 0;
+  font-size: 41px;
+  color: #ffffff;
+}
+.f_text {
+  margin: 15px 0 40px 0;
+  font-size: 16px;
+  color: #999999;
+}
+#f_name {
+  width: 300px;
+  /* text-align: center; */
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+  padding: 8px 8px;
+  background: transparent;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+#s_mail {
+  width: 300px;
+  /* text-align: center; */
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+  padding: 8px 8px;
+  background: transparent;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+#message {
+  width: 300px;
+  /* text-align: center; */
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+  padding: 8px 8px;
+  background: transparent;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.btn2 {
+  margin-left: 200px;
+  padding: 15px 40px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #15a4fa;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+/* form end */
+/* footer start */
+.wrapper2 {
+  margin: 0 auto;
+  width: 70%;
+  /* border: 1px solid black; */
+  overflow: hidden;
+}
+footer {
+  padding: 20px 0;
+}
+
+.copy {
+  width: 20%;
+  /* border: 1px solid red; */
+  float: left;
+}
+.social {
+  margin: 4px 0;
+  width: 60%;
+  /* border: 1px solid red; */
+  float: right;
+  display: inline-block;
+}
+
+.sc_img {
+  margin-left: 10px;
+  float: right;
+}
+
+/* footer end */
